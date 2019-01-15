@@ -1,0 +1,59 @@
+<ion-content padding id="welcome" style="background-image:url('./assets/imgs/background.jpg');background-size:100% 100%">
+  <img src="assets/imgs/l.png" class="logo" style="max-width: 80%;border: 0;margin-left: 10%;margin-top: 10%"/>
+  <ion-grid>
+    <ion-row>
+      <ion-col  style="text-align: center">
+      <i style="color: white">Géolocalisation de flotte <br> Auto et véhicule</i>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+<br><br>
+  <ion-grid >
+    <ion-row >
+      <ion-col center text-center >
+        
+        <ion-item style="text-align: center" >
+        <ion-input  type="text" placeholder="identifiant" #username></ion-input>
+        <ion-icon name="person" style="color:white ; display: flex;" item-end></ion-icon>
+      </ion-item>
+   
+      </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col center text-center>    
+          <ion-item style="text-align: center">
+          <ion-input  type="text" placeholder="Mot de passe" #password></ion-input>
+          <ion-icon name="lock" style="color:white" item-end></ion-icon>
+        </ion-item>
+     
+        </ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col>
+              <ion-item  no-lines >
+                  <ion-label style="color: white ; "><i style="padding-left: 2%;">se souvenir de moi</i></ion-label>
+                  <ion-checkbox mode="ios" style="border-color: white ;text-align: center !important" checked="true" color="tranparent" ></ion-checkbox>
+              </ion-item>
+              
+          </ion-col>
+    
+    </ion-row>
+    <br>
+    <ion-row>
+        <ion-col  style="text-align: center">
+            <button ion-button round  style="color: white ; width: 80% ; margin-left: 10% ;margin-right: 10%" (click)="login()">Connexion</button>
+            <button ion-button round  style="color: white ; width: 80% ; margin-left: 10% ;margin-right: 10%" (click)="openRegister()">registre</button>
+        </ion-col>
+  
+  </ion-row>
+   
+  </ion-grid>
+  <ion-grid>
+      <ion-row>
+        <ion-col  style="text-align: center">
+        <i style="color: white">Mot de passe oublier?</i>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+   
+</ion-content>

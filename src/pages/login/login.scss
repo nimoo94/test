@@ -1,0 +1,27 @@
+page-login {
+    .item{
+        margin-bottom:10px;
+        background:transparent;
+        //border:medium none;
+    }
+    .text-input-md {
+   
+        color: white;
+    }
+  
+      
+      .text-input:-ms-input-placeholder {
+        color: white;
+       
+      }
+      
+      .text-input::-webkit-input-placeholder {
+        text-indent: 0;
+        color: white;
+        //padding-left: 50% !important
+      }
+      .button {
+        background-color: orange;
+    }
+
+}
